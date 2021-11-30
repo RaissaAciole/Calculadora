@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Minha Calculadora</title>
+</head>
+<body>
+    <div class='fundo'>
+        <h1>Raissa Aciole</h2>
+        <div class="calculadora">
+            <h1>Calculadora</h1>
+            <p id="resultado"></p>
+            <table>
+                <tr> <!--Primeira Coluna-->
+                    <td><button class="botão" onclick="clean('')">C</button></td>
+                    <td><button class="botão" onclick="back('')"><</button></td>
+                    <td><button class="botão01" onclick="insert('/')">/</button></td>
+                    <td><button class="botão02" onclick="insert('*')">*</button></td>
+                </tr>
+                <tr> <!--Segunda Coluna-->
+                    <td><button class="botão" onclick="insert('7')">7</button></td>
+                    <td><button class="botão" onclick="insert('8')">8</button></td>
+                    <td><button class="botão" onclick="insert('9')">9</button></td>
+                    <td><button class="botão03" onclick="insert('-')">-</button></td>
+                </tr>
+                <tr> <!--Terceira Coluna-->
+                    <td><button class="botão" onclick="insert('4')">4</button></td>
+                    <td><button class="botão" onclick="insert('5')">5</button></td>
+                    <td><button class="botão" onclick="insert('6')">6</button></td>
+                    <td><button class="botão04" onclick="insert('+')">+</button></td>
+                </tr>
+                <tr> <!--Quarta Coluna-->
+                    <td><button class="botão" onclick="insert('3')">3</button></td>
+                    <td><button class="botão" onclick="insert('2')">2</button></td>
+                    <td><button class="botão" onclick="insert('1')">1</button></td>
+                    <td rowspan="2"><button class="botão05" onclick="calcular('=')" style="height: 163px">=</button></td>
+                </tr>
+                <tr> <!--Quinta Coluna-->
+                    <td colspan="2" ><button class="botão" onclick="insert('0')" style="width: 143px;">0</button></td>
+                    <td><button class="botão06" onclick="insert('.')">.</button"></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <script src="script.js"></script> 
+</body>
+</html>

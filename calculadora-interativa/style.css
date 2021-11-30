@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.fundo {
+    background-image: linear-gradient(-45deg, rgb(36, 35, 35), rgb(138, 19, 250));
+    height: 100vh;
+    color: white;
+    font-family: 'Outfit', sans-serif;
+    text-align: center;
+}
+
+.calculadora {
+    position: absolute;
+    background-color: rgb(19, 18, 18);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.botão {
+    background-color: rgb(75, 75, 75);
+    width: 70px;
+    height: 80px;
+    font-size: 40px;
+    cursor: pointer;
+    border: none;
+    color: white;
+    margin: 2px;
+    border-radius: 15px;
+}
+
+.botão:hover {
+    background-color: rgb(129, 129, 129);
+}
+
+.botão01:hover {
+    background-color: rgb(133, 162, 250);;
+}
+
+.botão02:hover {
+    background-color: rgb(151, 248, 255);;
+}
+
+.botão03:hover {
+    background-color: rgb(252, 214, 145);;
+}
+
+.botão04:hover {
+    background-color: rgb(162, 250, 192);
+}
+
+.botão05:hover {
+    background-color: rgb(252, 161, 211);;
+}
+
+.botão06:hover {
+    background-color: rgb(252, 242, 155);;
+}
+
+#resultado {
+    background-color: white;
+    width: 290px;
+    height: 50px;
+    margin: 5px;
+    font-size: 40px;
+    color: rgb(41, 41, 41);
+    text-align: right;
+}
+
+.botão01 {
+    background-color: rgb(1, 63, 247);
+    width: 70px;
+    height: 80px;
+    font-size: 40px;
+    cursor: pointer;
+    border: none;
+    color: white;
+    margin: 2px;
+    border-radius: 15px;
+}
+
+.botão02 {
+    background-color: rgb(1, 238, 255);
+    width: 70px;
+    height: 80px;
+    font-size: 40px;
+    cursor: pointer;
+    border: none;
+    color: white;
+    margin: 2px;
+    border-radius: 15px;  
+}
+
+.botão03 {
+    background-color: rgb(255, 167, 4);
+    width: 70px;
+    height: 80px;
+    font-size: 40px;
+    cursor: pointer;
+    border: none;
+    color: white;
+    margin: 2px;
+    border-radius: 15px;
+}
+
+.botão04 {
+    background-color: rgb(0, 255, 85);
+    width: 70px;
+    height: 80px;
+    font-size: 40px;
+    cursor: pointer;
+    border: none;
+    color: white;
+    margin: 2px;
+    border-radius: 15px;
+}
+
+.botão05 {
+    background-color: rgb(255, 0, 140);
+    width: 70px;
+    height: 80px;
+    font-size: 40px;
+    cursor: pointer;
+    border: none;
+    color: white;
+    margin: 2px;
+    border-radius: 15px;
+}
+
+.botão06 {
+    background-color: rgb(255, 230, 0);
+    width: 70px;
+    height: 80px;
+    font-size: 40px;
+    cursor: pointer;
+    border: none;
+    color: white;
+    margin: 2px;
+    border-radius: 15px;
+}
